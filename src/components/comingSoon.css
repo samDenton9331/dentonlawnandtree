@@ -1,0 +1,9 @@
+.coming-soon {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.coming-soon h4 {
+    line-height: 2;
+}
