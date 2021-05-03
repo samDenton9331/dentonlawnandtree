@@ -13,7 +13,6 @@ export default function ComingSoon() {
             </h2>
             <hr style={{margin:'3rem'}}></hr>
             <h4>
-           
                 For Service and Information:
                 <br></br>
                 <br></br>
