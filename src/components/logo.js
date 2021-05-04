@@ -3,7 +3,7 @@ import './logo.css'
 import UseWindowDimensions from './windowWidth';
 
 export default function logo() {
-    const { height, width } = UseWindowDimensions();
+    const { width } = UseWindowDimensions();
     let breakStr = '//';
 
     if (width < 500) {

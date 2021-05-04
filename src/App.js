@@ -8,6 +8,7 @@ import Content from './components/content';
 
 /* IDs */
 import * as Constants from './components/constants'
+import ContactMe from './components/contactMe';
 
 function App() {
   return (
@@ -16,10 +17,11 @@ function App() {
         <Layout>
           <Logo/>
           <Menu/>
-          {/* <div style={{height:'1000px'}}></div> */}
           <Heading id={Constants.whatIDoID} content="What I Do"/>
-          <Content/>
+          <Content bolded content="What I Do"/>
           <Heading id="two" content="two"/>
+          <Content content="Two Content"/>
+          <ContactMe/>
         </Layout>
       </HashRouter>
     </div>
